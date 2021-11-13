@@ -1,0 +1,36 @@
+
+.header{
+    font-family: 'Ubuntu', sans-serif;
+
+    background-color: azure;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    &-logo{
+        display: block;
+        margin-left: 50px;
+        font-size: 25px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #272e35;
+        
+    }
+    &-menu{
+        font-size: 18px;
+        margin-left: auto;
+        display: flex;
+        align-items: center;
+        color:#272e35 ;
+        list-style: none;
+        &-item:not(:first-child){
+            margin-left: 20px;
+        }
+        &-icon{
+            margin-left: 20px;
+            padding-top: 5px;
+
+
+        }
+    }
+}

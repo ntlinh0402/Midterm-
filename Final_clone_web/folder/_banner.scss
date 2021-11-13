@@ -1,0 +1,55 @@
+.banner{
+    padding-top: 250px;
+    &-heading{
+        font-family: 'Ubuntu', sans-serif;
+
+        font-size: 40px;
+        line-height: 1.5;
+        color:azure;
+        display: flex;
+        justify-content: center;
+    }
+    &-desc{
+        font-family: 'Ubuntu', sans-serif;
+
+        margin-left: 300px;
+        margin-right: 300px;
+
+        color:azure;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    &-links{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        .button:first-child{
+            margin-right: 20px;
+        }
+    }
+}
+.button{
+    font-family: 'Ubuntu', sans-serif;
+
+    display: inline-block;
+    border: 0;
+    // background-color: #80b834;
+    padding: 10px 25px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    text-decoration: none;
+    color: azure;
+    &-primary{
+        background-color: #80b834;
+
+    }
+    &-outline{
+        outline: auto;
+        outline-color: azure
+
+    }
+
+}
